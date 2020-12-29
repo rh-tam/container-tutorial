@@ -70,3 +70,13 @@ Looking at the list of containers, we also see each container and their respecti
 If you would like to know more on podman pod, please refer to this blog which explains more on the topic. It also has commands that you could run on the same lab environment
 
 https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/
+
+
+## Finish
+
+clean up
+
+```bash
+$ podman pod ls
+$ podman pod rm <name>
+```
